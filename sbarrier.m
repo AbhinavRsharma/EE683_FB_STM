@@ -15,7 +15,7 @@
 ## <https://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*- 
-## @deftypefn {} {@var{retval} =} fbarrier (@var{input1}, @var{input2})
+## @deftypefn {} {@var{retval} =} sbarrier (@var{input1}, @var{input2})
 ##
 ## @seealso{}
 ## @end deftypefn
@@ -23,7 +23,7 @@
 ## Author: Abhinav <Abhinav@DESKTOP-SNQ7GLK>
 ## Created: 2020-11-24
 
-function retval = fbarrier (V , E) 
+function retval = sbarrier (V , E) 
     ## V: Barrier's Potential, E: Particle's Energy
     
     m = 9.10938*(10^(-31));
